@@ -14,10 +14,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<NavBar />}>
           <Route index element={<Home />} />
-          <Route path="login" element={<Login />}/>
-          <Route path="dashboard" element={<Dashboard />}/>
-          <Route path="tourney" element={<Tourney />}/>
-          <Route path="match" element={<Match />}/>
+          <Route path="/login" element={<Login />}/>
+          <Route path="/dashboard" element={<Dashboard />}/>
+          <Route path="/tourney" element={<Tourney />}/>
+          <Route path="/match" element={<Match />}/>
         </Route>
       </Routes>
     </BrowserRouter>
