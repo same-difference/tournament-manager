@@ -23,11 +23,11 @@ export default function NavBar() {
                                 <a className="nav-link disabled" aria-disabled="true">Match</a>
                             </li>
                         </ul>
-                        {/* <form className="d-flex p-2" role="search">
+                        <form className="d-flex p-2" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                                 <button className="btn btn-outline-success" type="submit">Search</button>
-                        </form> */}
-                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        </form>
+                        <a className="nav-link dropdown-toggle p-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Profile
                                 </a>
                                 <li className="nav-item dropdown">
