@@ -15,12 +15,12 @@ export default function NavBar() {
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/dashboard">Dashboard</a>
+                                <a className="nav-link" href="dashboard">Dashboard</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/tourney">Tourney</a>
+                                <a className="nav-link" href="tourney">Tourney</a>
                             </li><li className="nav-item">
-                                <a className="nav-link" href="/match">Match</a>
+                                <a className="nav-link" href="match">Match</a>
                             </li>
                         </ul>
                         <form className="d-flex p-2" role="search">
@@ -32,7 +32,7 @@ export default function NavBar() {
                                 </a>
                                 <li className="nav-item dropdown">
                                 <ul className="dropdown-menu dropdown-menu-end">
-                                    <li><a className="dropdown-item" href="/login">Login / Sign up</a></li>
+                                    <li><a className="dropdown-item" href="login">Login / Sign up</a></li>
                                     <li><hr className="dropdown-divider"/></li>
                                     <li><a className="dropdown-item" href="#">Profile</a></li>
                                     <li><a className="dropdown-item" href="#">Account</a></li>
